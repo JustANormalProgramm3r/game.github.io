@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: rgb(250, 144, 104);
+}
+table{
+    /* border-collapse: collapse; */
+    margin: auto;
+    margin-top: 100px;
+    font-size: 30px;
+    box-sizing: border-box;
+    
+}
+
+td{
+    border: 1px solid #000;
+    width: 200px; height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+}
+
+td:hover{
+    background-color: aquamarine;
+}
+
+div{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}

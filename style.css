@@ -14,12 +14,13 @@ table{
 }
 
 td{
-    border: 1px solid #000;
     width: 200px; height: 200px;
     text-align: center;
     border-radius: 20px;
     background-color: #fff;
-    border: none;
+    margin: 5px;
+    display: inline-block;
+    line-height: 200px;
 }
 
 td:hover{

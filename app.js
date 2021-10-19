@@ -2,6 +2,7 @@ const {body} = document;
 const table = document.createElement('table');
 const result = document.createElement('div');
 const rows = [];
+const btn = document.querySelector('button');
 
 let turn = '😀';
 
@@ -88,3 +89,6 @@ const checkWinner = (target) =>{
     body.appendChild(result);
 
 
+btn.addEventListener('click',()=>{
+    location.reload();
+})

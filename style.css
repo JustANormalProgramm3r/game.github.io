@@ -1,5 +1,6 @@
 *{
     margin: 0; padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(250, 144, 104);
@@ -7,7 +8,7 @@ body{
 table{
     /* border-collapse: collapse; */
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 30px;
     box-sizing: border-box;
     
@@ -29,6 +30,26 @@ td:hover{
 
 div{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 15px;
     font-size: 30px;
+}
+
+button{
+    border: none;
+    background-color: inherit;
+    width: 80px; height: 50px;
+    position: absolute;
+    bottom: 55px; left: 50%;
+    margin-left: -40px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+button:hover{
+    background-color: rgb(66, 63, 63);
 }
